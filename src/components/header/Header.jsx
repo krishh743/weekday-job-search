@@ -24,7 +24,7 @@ const AppBar = styled(MuiAppBar, {
 
 const Header = ({ open, handleDrawerOpen }) => {
   return (
-    <AppBar position="fixed" open={open} style={{backgroundColor:"black"}}>
+    <AppBar position="fixed" open={open} style={{backgroundColor:"#212F3D"}}>
       <Toolbar>
         <IconButton
           color="inherit"

@@ -24,6 +24,8 @@ const Sidebar = ({ open, handleDrawerClose }) => {
         '& .MuiDrawer-paper': {
           width: drawerWidth,
           boxSizing: 'border-box',
+          backgroundColor:"#212F3D",
+          color:"white"
         },
       }}
       variant="persistent"
@@ -32,15 +34,15 @@ const Sidebar = ({ open, handleDrawerClose }) => {
     >
       <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', p: 1 }}>
         <span style={{fontSize:"22px"}}>Weekday</span>
-        <IconButton onClick={handleDrawerClose}>
-          <ChevronLeftIcon />
+        <IconButton  onClick={handleDrawerClose}>
+          <ChevronLeftIcon style={{color:"white"}}/>
         </IconButton>
       </Box>
       <List>
         {['My applied jobs', 'Search jobs', 'Search Salary'].map((text, index) => (
           <ListItem key={text} disablePadding>
-            <ListItemButton>
-              <ListItemIcon>
+            <ListItemButton sx={{borderBottom:"1px solid white"}} >
+              <ListItemIcon style={{color:"white"}}>
                 {index === 0 ? <PermIdentityIcon /> : index === 1 ? <SearchIcon /> : <CurrencyRupeeSharpIcon />}
               </ListItemIcon>
               <ListItemText primary={text} />
