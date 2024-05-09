@@ -1,10 +1,12 @@
-# Getting Started with Create React App
+# Job Listing App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+TWelcome to the Job Listing App! This application allows users to search for job listings by applying various filters.
 
-## Available Scripts
 
-In the project directory, you can run:
+
+## Overview
+
+Provide a brief overview of your job listing application here. Describe its purpose, features, and any other relevant information that users may need to know.
 
 ### `npm start`
 
