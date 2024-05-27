@@ -1,5 +1,4 @@
 import React from "react";
-// import SearchInputField from "../SearchInputField";
 import ExperienceDropdown from "../experience-dropdown/ExperienceDropdown";
 import MinBasePayDropdown from "../minBase-pay-dropdown/MinBasePayDropdown";
 import LocationDropdown from "../location-dropdown/LocationDropdown";

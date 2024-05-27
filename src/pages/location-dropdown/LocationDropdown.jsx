@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import { Select, MenuItem, InputLabel, FormControl } from "@mui/material";
 import "./LocationDropdown.css";
 import { styleObj } from "../../utills/utills";
-// import { styleObj } from "../../utils";
 
 const LocationDropdown = ({ setLocationFilter }) => {
   const [location, setLocation] = React.useState("");
@@ -12,7 +11,7 @@ const LocationDropdown = ({ setLocationFilter }) => {
 
   useEffect(() => {
     setLocationFilter(location);
-  }, [location]);
+  }, [location, setLocationFilter]);
 
   return (
     <div className="location-wrapper">

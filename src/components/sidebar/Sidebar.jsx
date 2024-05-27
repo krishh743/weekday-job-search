@@ -11,7 +11,6 @@ import ListItemText from '@mui/material/ListItemText';
 import PermIdentityIcon from '@mui/icons-material/PermIdentity';
 import SearchIcon from '@mui/icons-material/Search';
 import CurrencyRupeeSharpIcon from '@mui/icons-material/CurrencyRupeeSharp';
-import { Typography } from '@mui/material';
 
 const drawerWidth = 240;
 
